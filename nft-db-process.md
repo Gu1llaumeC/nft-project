@@ -1,7 +1,8 @@
 # This document includes steps to be done to create the database for the NFT
 
-### NFT Database id : QmezvueogWeLkwofoPCJrUjtY14LdCBYv2gFUNtu3E8krj
-# NFT Database link : https://gateway.pinata.cloud/ipfs/QmezvueogWeLkwofoPCJrUjtY14LdCBYv2gFUNtu3E8krj/
+### NFT Database id (images) : QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ
+### NFT Database id (metadata) : QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ
+# NFT Database link : https://gateway.pinata.cloud/ipfs/QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ/
 
 ## Step 1: NFT Art Generator
     1.0: Open the NFT Art Generator
@@ -27,10 +28,12 @@
     3.0: Open Pinata
     3.1: Click on "Upload+"
     3.2: Click on "Select"
-    3.3: Select the folder containing files
+    3.3: Select the folder output/images
     3.4: Click on "Importer"
-    3.5: Give name to dataset : "nft-project"
-    3.4: Click on "Upload"
+    3.5: Give name to dataset : "nft-project-images"
+    3.6: Click on "Upload"
+    3.7: Repeat with the folder output/metadata
+    3.8: Give name to dataset : "nft-project-metadata"
 
 
 
