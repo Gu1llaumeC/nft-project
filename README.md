@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Projected features
+
+### 1.0.0
+
+marketplace with buy/sell/mint possibilities
+
+### 2.0.0
+
+automated deployement of smart contracts
+
+### 3.0.0
+
+upload of filters to add to the database
+
 ## Available Scripts
 
 In the project directory, you can run:
