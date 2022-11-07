@@ -2,7 +2,7 @@
 
 ### NFT Database id (images) : QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ
 ### NFT Database id (metadata) : QmUUzTP7424Xe8ZuJGmWPUpPsszEWH2skXXJhURNgUVyHc
-# NFT Database link : https://gateway.pinata.cloud/ipfs/QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ/
+# NFT Database link : https://gateway.pinata.cloud/ipfs/QmUUzTP7424Xe8ZuJGmWPUpPsszEWH2skXXJhURNgUVyHc/
 
 ## Step 1: NFT Art Generator
     1.0: Open the NFT Art Generator
