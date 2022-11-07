@@ -1,8 +1,8 @@
 # This document includes steps to be done to create the database for the NFT
 
 ### NFT Database id (images) : QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ
-### NFT Database id (metadata) : QmUUzTP7424Xe8ZuJGmWPUpPsszEWH2skXXJhURNgUVyHc
-# NFT Database link : https://gateway.pinata.cloud/ipfs/QmPVEr82S4eTQtZJBUYpbrTLX2MxMMx448jg9nBZPE43cQ/
+### NFT Database id (metadata) : QmeNXW92UZ8Bqe3STS3vjSLTLb669eWbLcCGgAEqfuEzfD
+# NFT Database link : https://gateway.pinata.cloud/ipfs/QmeNXW92UZ8Bqe3STS3vjSLTLb669eWbLcCGgAEqfuEzfD/
 
 ## Step 1: NFT Art Generator
     1.0: Open the NFT Art Generator
