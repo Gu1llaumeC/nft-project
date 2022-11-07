@@ -6,4 +6,4 @@ export const StyledHeader = style.div`
     grid-template-rows: 1fr;
     grid-template-areas: "button title adress";
     justify-items: center;
-    padding: 20px 0;`;
+    padding: 50px 0;`;
