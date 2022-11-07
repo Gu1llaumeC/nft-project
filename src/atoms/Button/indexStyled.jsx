@@ -6,6 +6,9 @@ export const StyledButton = style.button`
     border: none;
     border-radius: 20px;
     padding: 2px 50px;
+    max-width: 170px;
+    max-height: 25px;
     display: flex;
     justify-content: center;
-    align-items: center;`;
+    align-items: center;
+    cursor: pointer;`;
