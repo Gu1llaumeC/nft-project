@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledTitle = styled.div`
-    width: 150px;
+    width: 180px;
     display : flex;
     justify-content: space-between;
 `;
