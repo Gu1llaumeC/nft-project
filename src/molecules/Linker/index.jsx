@@ -5,7 +5,6 @@ import Title1 from "../../atoms/Title1";
 
 const Linker = () => {
 
-    // return true if the current page is the page passed in parameter
     const isCurrentPage = (page) => {
         return window.location.pathname === page;
     }

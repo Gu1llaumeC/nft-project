@@ -9,6 +9,7 @@ export const StyledVignette = styled.div`
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     position: relative;
 `;
 
