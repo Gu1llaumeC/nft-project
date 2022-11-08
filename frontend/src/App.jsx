@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Collection from "./pages/Collection";
+import Market from "./pages/Market";
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Collection" element={<Collection />} />
-          <Route path="Market" element={<Home />} />
+          <Route path="Market" element={<Market />} />
         </Routes>
       </BrowserRouter>
     </div>
