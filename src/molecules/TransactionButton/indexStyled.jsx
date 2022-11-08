@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
-export const StyledBuyButton = styled.h2`
+export const StyledTransactionButton = styled.button`
     color: #FFFFFF;
+    background: none;
+    border: none;
     text-decoration: underline;
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     width: 100%;
     text-align: center;
     z-index: 2;
-    cursor: pointer;`;
+    cursor: pointer
+`;
