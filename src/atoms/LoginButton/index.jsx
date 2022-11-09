@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./LoginButton.css";
 
+import { Link } from 'react-router-dom';
+
+import Title2 from "../Title2"
+
 const LoginButton = ({
     onPressLogout,
     onPressConnect,
@@ -11,7 +15,10 @@ const LoginButton = ({
       <div>
         {address && !loading ? (
           <button onClick={onPressLogout} className={styles["connect-wallet"]}>
-            Disconnect
+            <Link to="/collection" params={{ address }}>
+              <Title2 text="You're Connected !" />
+              Click here to go to the collection
+            </Link>
           </button>
         ) : loading ? (
           <button

@@ -21,7 +21,6 @@ const Login = ( {address, setAddress} ) => {
 
             const account = Web3.utils.toChecksumAddress(accounts[0]);
             setAddress(account);
-            window.location.pathname = "/collection";
             }
         } catch (error) {
             console.log(error);
