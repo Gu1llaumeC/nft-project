@@ -19,7 +19,7 @@ contract NFT_CGL is ERC721, Ownable {
             "https://gateway.pinata.cloud/ipfs/QmWFPHaU7SsNGJVMdzUjdkeaTy7sJo9jNX3p3Xd6jtLg2x/";
     }
 
-    function safeMint() public onlyOwner {
+    function safeMint() public {
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(msg.sender, tokenId);
