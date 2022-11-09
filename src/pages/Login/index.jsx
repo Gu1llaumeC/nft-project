@@ -1,9 +1,9 @@
 import React from "react";
 import Web3 from "web3";
 import { useState } from "react";
-import { StyledLogin } from "./indexStyled";
+import styles from "./Login.css";
 
-import LoginButton from "../../atoms/LonginButton";
+import LoginButton from "../../atoms/LoginButton";
 
 const Login = () => {
     
@@ -32,16 +32,18 @@ const Login = () => {
 
     const onPressLogout = () => setAddress("");
     
-    return <StyledLogin>
-        <h1>Welcome on our NFT Project</h1>
-        <h2>Please Login with Metamask</h2>
-        <LoginButton
-          onPressConnect={onPressConnect}
-          onPressLogout={onPressLogout}
-          loading={loading}
-          address={address}
-        />
-    </StyledLogin>;
+    return(
+        <div className="Login">
+            <h1>Welcome on our NFT Project</h1>
+            <h2>Please Login with Metamask</h2>
+            <LoginButton
+            onPressConnect={onPressConnect}
+            onPressLogout={onPressLogout}
+            loading={loading}
+            address={address}
+            />
+      </div>
+    );
 };
 
 export default Login;
