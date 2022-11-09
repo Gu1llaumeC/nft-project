@@ -49,4 +49,4 @@ async function mintNFT() {
     });
 }
 
-export default mintNFT;
+mintNFT();

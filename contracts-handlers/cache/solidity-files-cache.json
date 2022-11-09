@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/guillaumec/Desktop/ECE/ING5/TechnoBlockchain/projet-nft/contracts-handlers/contracts/NFT_CGL.sol": {
-      "lastModificationDate": 1668011821426,
-      "contentHash": "806b31a6a56884babc549eb3644dfd37",
+      "lastModificationDate": 1668031537750,
+      "contentHash": "ed15e879712239d2871d4da7b94672fb",
       "sourceName": "contracts/NFT_CGL.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -513,46 +513,6 @@
       ],
       "artifacts": [
         "ERC721URIStorage"
-      ]
-    },
-    "/Users/guillaumec/Desktop/ECE/ING5/TechnoBlockchain/projet-nft/contracts-handlers/contracts/NFT_Test.sol": {
-      "lastModificationDate": 1667936917136,
-      "contentHash": "0b7d40abcb501a5989032522874339fc",
-      "sourceName": "contracts/NFT_Test.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "../node_modules/@openzeppelin/contracts/utils/Counters.sol",
-        "../node_modules/@openzeppelin/contracts/access/Ownable.sol",
-        "../node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "NFT_Test"
       ]
     },
     "/Users/guillaumec/Desktop/ECE/ING5/TechnoBlockchain/projet-nft/contracts-handlers/contracts/Purchase_NFT.sol": {

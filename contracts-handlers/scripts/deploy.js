@@ -1,8 +1,8 @@
 async function main() {
-  const MyNFT = await ethers.getContractFactory("Purchase_NFT");
+  const MyNFT = await ethers.getContractFactory("NFT_CGL");
   // Start deployment, returning a promise that resolves to a contract object
   const myNFT = await MyNFT.deploy(
-    "0xA80196d2D2048bF55a15E64472D1F3611Ee44D8A",
+    "0x7cE2FCD563454d7f95d3F5fA25321D1aF909a77e",
     1,
     { value: ethers.utils.parseEther("0.001") }
   );

@@ -49,4 +49,4 @@ async function confirmReceived() {
   });
 }
 
-export default confirmReceived;
+confirmReceived();
