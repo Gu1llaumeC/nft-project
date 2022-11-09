@@ -2,7 +2,7 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-import "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
 contract Purchase_NFT {
     uint256 public price;
@@ -49,13 +49,16 @@ contract Purchase_NFT {
         _;
     }
 
+    /* function giveApprovalToContract() public onlySeller {
+        IERC721(contractAddress).approve(address(this), tokenId);
+    } */
+
     function confirmPurchase() external payable inState(State.Created) {
         require(
             msg.value == (2 * price),
             "Please send in 2x the purchase amount"
         );
         buyer = payable(msg.sender);
-        // Transfer the NFT to the buyer
         // IERC721(contractAddress).transferFrom(seller, buyer, tokenId);
         state = State.Inactive;
         buyer.transfer(price);
