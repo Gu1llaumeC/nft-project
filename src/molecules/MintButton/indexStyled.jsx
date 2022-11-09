@@ -11,4 +11,11 @@ export const StyledMintButton = style.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;`;
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        width: 180px;
+    }
+`;

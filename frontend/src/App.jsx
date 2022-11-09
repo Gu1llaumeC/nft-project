@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from "./pages/Home";
 import Collection from "./pages/Collection";
 import Market from "./pages/Market";
 import Login from "./pages/Login";
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/market" element={<Market />} />
           <Route path="/login" element={<Login />} />
@@ -19,5 +18,7 @@ function App() {
     </div>
   );
 }
+
+// TODO: Add check if user is logged in
 
 export default App;

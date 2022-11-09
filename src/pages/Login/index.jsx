@@ -1,6 +1,7 @@
 import React from "react";
 import Web3 from "web3";
 import { useState } from "react";
+import { store } from "../../store";
 import "./Login.css";
 
 import LoginButton from "../../atoms/LoginButton";
@@ -22,6 +23,8 @@ const Login = () => {
 
             const account = Web3.utils.toChecksumAddress(accounts[0]);
             setAddress(account);
+            // store.dispatch({ type: "SET_ACCOUNT", payload: account });
+            // console.log(store.getState().account);
             window.location.pathname = "/collection";
             }
         } catch (error) {

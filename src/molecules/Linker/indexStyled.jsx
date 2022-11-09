@@ -14,4 +14,8 @@ export const StyledLink = styled(Link)`
     text-decoration: none;
     font-weight: bold;
     cursor: ${props => props.clickable ? "pointer" : "default"};
+
+    &:hover {
+        color: #FCC63A;
+    }
 `;
