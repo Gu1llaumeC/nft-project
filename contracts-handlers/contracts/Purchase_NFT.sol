@@ -49,20 +49,13 @@ contract Purchase_NFT {
         _;
     }
 
-    /* function giveApprovalToContract() public onlySeller {
-        IERC721(contractAddress).approve(address(this), tokenId);
-    } */
-
     function confirmPurchase() external payable inState(State.Created) {
         require(
             msg.value == (2 * price),
             "Please send in 2x the purchase amount"
         );
         buyer = payable(msg.sender);
-        // IERC721(contractAddress).transferFrom(seller, buyer, tokenId);
-        state = State.Inactive;
-        buyer.transfer(price);
-        seller.transfer(address(this).balance);
+        state = State.Locked;
     }
 
     function confirmReceived() external onlyBuyer inState(State.Locked) {

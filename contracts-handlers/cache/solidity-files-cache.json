@@ -556,8 +556,8 @@
       ]
     },
     "/Users/guillaumec/Desktop/ECE/ING5/TechnoBlockchain/projet-nft/contracts-handlers/contracts/Purchase_NFT.sol": {
-      "lastModificationDate": 1668023674691,
-      "contentHash": "f37276fd1a8e56676912b959bd04b5a1",
+      "lastModificationDate": 1668027205256,
+      "contentHash": "f7d0bf215507234fd6e4e0386ce7e825",
       "sourceName": "contracts/Purchase_NFT.sol",
       "solcConfig": {
         "version": "0.8.17",

@@ -43,4 +43,4 @@ async function purchaseNFT() {
     .on("receipt", console.log);
 }
 
-purchaseNFT();
+export default purchaseNFT;
