@@ -9,9 +9,6 @@ import Login from "./pages/Login";
 function App() {
 
   const [address, setAddress] = useState("");
-  useEffect(() => {
-        console.log("address", address);
-    }, [address]);
 
   return (
     <div className="App">
