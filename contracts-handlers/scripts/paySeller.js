@@ -49,4 +49,4 @@ async function paySeller() {
   });
 }
 
-export default paySeller;
+paySeller();

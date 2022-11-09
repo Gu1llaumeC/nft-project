@@ -12,8 +12,7 @@ const contract = require("../artifacts/contracts/NFT_CGL.sol/NFT_CGL.json");
 const contractAddress = CONTRACT_ADDRESS;
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
-async function mintNFT(minter) {
-  PUBLIC_KEY = minter;
+async function mintNFT() {
   const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest"); // get latest nonce
 
   const tx = {
@@ -50,4 +49,4 @@ async function mintNFT(minter) {
     });
 }
 
-export default mintNFT;
+mintNFT();
