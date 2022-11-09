@@ -1,14 +1,22 @@
 import style from 'styled-components';
 
 export const StyledLoginButton = style.button`
-    background-color: #FCC63A;
-    color: #4E064B;
-    border: none;
-    border-radius: 20px;
-    padding: 2px 50px;
-    width: 170px;
-    max-height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;`;
+    .connect-wallet {
+        background-color: #1578f1;
+        color: white;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        padding: 0.8rem 1rem;
+        cursor: pointer;
+    }
+  
+    .connect-wallet-loading {
+        cursor: none;
+    }`
