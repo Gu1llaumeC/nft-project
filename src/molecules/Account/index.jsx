@@ -6,13 +6,13 @@ import AccountMenu from "../AccountMenu";
 
 import profile from "../../assets/transparent-empty-profile.png";
 
-const Account = () => {
+const Account = ( {address, setAddress} ) => {
 
     // TODO: conditional rendering 
 
     return <StyledAccount>
         <Main>
-            <Title2 text="Metamask adress" />
+            <Title2 text={address} />
             <StyledProfile src={profile} alt="profile" />
         </Main>
         <AccountMenu />
