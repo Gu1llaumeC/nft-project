@@ -42,7 +42,51 @@ cd contracts-handlers
 npx hardhat --network goerli run scripts/deploy.js
 ```
 
-then you need to get the purchase contract address by using the transaction hash from the console
+then you need to get the purchase contract address by using the transaction hash from the console and change the contract address in the .env file
 
 ```sh
-node scripts/
+node scripts/purchase-nft.js
+```
+
+You can check the transaction on https://goerli.etherscan.io/tx/${transactionHash}
+
+then you will have to confirm that you received the NFT
+
+```sh
+node scripts/confirmReceived.js
+```
+
+You can check the transaction on https://goerli.etherscan.io/tx/${transactionHash}
+
+And then you will have to pay the seller
+
+```sh
+node scripts/paySeller.js
+```
+
+**Note that some of this steps should be done only by the seller or the buyer but if you play both roles it works too** (You will just not see that some of the steps should not be done by you as the buyer or the seller)
+
+You can also try to cancel the transaction
+This must be done by the seller before the buyer purchase the NFT
+
+```sh
+node scripts/abortSelling.js
+```
+
+## Why this project
+
+This project needs the blochain to be able to acquire NFTs and to be able to sell them **safely**.
+
+## What's next
+
+We will continue to work on this project to be sure that every feature has been implemented and is working properly.
+
+The idea behind this project is to let a user add a filter to the NFT generator and then create automatically a NFT contract using the new NFTs generated to let him mint a few of them.
+
+That way we create a new collection of NFTs more unique than the previous ones.
+
+## Authors
+
+- [Guillaume Chollet](https://www.github.com/Gu1llaumeC)
+- [Clément Pellen](https://www.github.com/ClementPellen)
+- [Emily Richardson](https://www.github.com/Emrichardson)
